@@ -18,9 +18,9 @@ app.use(cors())
 
 app.use("/apple/api/v1",router)
 
-// app.get("/",function (req,res){
-//     res.send("welcome to youtube beackend server")
-// })
+app.get("/",function (req,res){
+    res.send("welcome to youtube beackend server")
+})
 
 // app.get("/hello",hello)
 
